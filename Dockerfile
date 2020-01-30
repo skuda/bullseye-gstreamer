@@ -13,5 +13,5 @@ RUN apt-get update \
  && apt-get -y clean \
  && rm -rf /var/lib/apt/lists/*
 
-CMD ["gst-play-1.0"]
+CMD ["gst-launch-1.0"]
 
