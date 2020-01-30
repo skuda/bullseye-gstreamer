@@ -1,0 +1,21 @@
+image: skuda/bullseye-gstreamer:latest
+manifests:
+  - image: skuda/bullseye-gstreamer:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: skuda/bullseye-gstreamer:arm32v5
+    platform:
+      architecture: arm
+      os: linux
+      variant: v5
+  - image: skuda/bullseye-gstreamer:arm32v7
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
+  - image: skuda/bullseye-gstreamer:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
